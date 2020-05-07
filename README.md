@@ -6,7 +6,7 @@ This application will show you how to build and secure a mock voting application
 
 **🚀 Read the full tutorial here**:
 
-[Authentication in Golang with JWTs](https://auth0.com/blog/authentication-in-golang/#Why-Golang)
+[Authentication in Golang with JWTs](https://auth0.com/blog/authentication-in-golang)
 
 ## Technology
 
