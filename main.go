@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"github.com/auth0/go-jwt-middleware"
-	"github.com/dgrijalva/jwt-go"
+	"github.com/form3tech-oss/jwt-go"
 	"github.com/gorilla/mux"
 	"github.com/rs/cors"
 	"net/http"
@@ -120,7 +120,7 @@ var AddFeedbackHandler = http.HandlerFunc(func(w http.ResponseWriter, r *http.Re
 
 func getPemCert(token *jwt.Token) (string, error) {
 	cert := ""
-	resp, err := http.Get("https://YOUR-DOMAIN.com/.well-known/jwks.json")
+	resp, err := http.Get("https://YOUR-DOMAIN/.well-known/jwks.json")
 
 	if err != nil {
 		return cert, err

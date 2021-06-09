@@ -43,7 +43,8 @@ Then fill it in with:
 ```json
 {
   "domain": "YOUR_DOMAIN",
-  "clientId": "YOUR_CLIENT_ID"
+  "clientId": "YOUR_APPLICATION_CLIENT_ID",
+  "audience": "YOUR_API_IDENTIFIER"
 }
 ```
 
